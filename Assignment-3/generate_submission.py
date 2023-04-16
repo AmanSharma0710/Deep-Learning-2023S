@@ -3,7 +3,7 @@ import cv2 as cv
 import numpy as np
 import pandas as pd
 
-test_path = "./Testing_Data_Prediction1/"
+test_path = "./Testing_Data_Prediction3/"
 test_mask_data = pd.read_csv(os.path.join(test_path, 'masked_info.csv')).drop(['Unnamed: 0'],axis=1)
 submission = []
 for i in range(len(test_mask_data)):
